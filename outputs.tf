@@ -1,3 +1,3 @@
 output "output" {
-value = local_file.python_function.content
+value = python_function.content
 }

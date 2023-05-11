@@ -1,4 +1,4 @@
-resource "local_file" "python_function" {
+resource "python_function" {
 filename = "hello_world.py"
 content  = <<-EOT
 
